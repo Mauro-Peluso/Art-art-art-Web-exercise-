@@ -1,0 +1,39 @@
+body {
+    /* 1. Definimos el color base */
+    background-color: #084C61;
+
+    /* 2. Superponemos un degradado que se funde con la imagen */
+    background-image: 
+        linear-gradient(to bottom, rgba(112, 162, 136, 0.1), #3c7c5b), 
+        url('Gatsby.jpg');
+
+    /* 3. Ajustes de visualización */
+    background-size: contain;      /* Muestra la imagen entera sin recortar */
+    background-repeat: no-repeat;
+    background-position: center 10%; /* La centra horizontalmente y la sube un poco */
+    
+    /* Si preferís que ocupe todo el ancho pero se vea más amplia: */
+    /* background-size: 100% auto; */ 
+
+    background-attachment: fixed;
+    background-blend-mode: normal; /* Probá 'normal' para ver la amplitud real primero */ 
+
+    margin: 0;
+    min-height: 100vh;
+    font-family: Sans-Serif;
+    color: #DFF8EB;
+    font-weight: bold;
+}
+
+.title {
+    color: #FFF7F8;
+}
+
+.icon-title {
+    width: 50px;      /* tamaño controlado */
+    height: auto;
+}
+
+p {
+    margin-top: 50vh; /* Esto lo baja justo a la mitad de la pantalla */
+}

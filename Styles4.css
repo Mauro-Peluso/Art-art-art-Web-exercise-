@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    background-image: url(bn.png);
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+
+.icon-title {
+    width: 50px;
+    height: auto;
+}
+
+.title {
+    background: linear-gradient(to right, #949894, #101110,black);
+    color: white;
+}
+
+.text {
+    background-color: #949894;
+    color: white;
+    width: 10%;
+    transition-property: left, background-color;
+    transition-duration: 5.7s;
+    transition-timing-function: cubic-bezier(ease);
+    position: relative;
+    left: 0;
+}
+
+.container:hover .text {
+    left: 80%; 
+    background: linear-gradient(#101110, black); 
+}
+
+.container {
+    width: 100%; 
+    border: 1px solid transparent;
+}
+
+.container2 {
+    width: 100%; 
+    border: 1px solid transparent;
+}
+
+.text2 {
+    background-color: #949894;
+    color: white;
+    width: 10%;
+    transition-property: left, background-color;
+    transition-duration: 5.7s;
+    transition-timing-function: cubic-bezier(ease);
+    position: relative;
+    left: 0;
+}
+
+.container2:hover .text2 {
+    left: 80%; 
+    background: linear-gradient(#101110, black); 
+}
+
+.inicio {
+    background-color: #949894;
+    color: white;
+    width: 10%;
+}
